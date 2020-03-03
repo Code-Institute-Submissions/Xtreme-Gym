@@ -1,8 +1,7 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+X-trem Gym
+The purpose of my project is to design a website for a gym, to attract new members. My design is to keep it simple but stylish.
+I want to design it so that it attracts new members with easy and simple layout for them to understand and find the classes tailored for them.
 
-Welcome Raff1988,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
 
 ## Gitpod Reminders
 
