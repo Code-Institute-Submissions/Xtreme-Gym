@@ -12,7 +12,50 @@ img {
     height: 400px;
     width: 600px;
 }
-h1 {
+/*---------------------------------Text-Aline*/
+h2,h4,h5 {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+    background-color: #555555;
+    color: #f1f1f1;
+    margin: 0;
+}
+
+
+ul {
+  list-style-type: none; 
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 300px;
+  background-color: #f1f1f1;
+}
+
+li a:hover {
+  display: block;
+  background-color: #ee8844;
+  color: white;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+/*---------------------------------Footer*/
+
+footer {
+    background-color: #555555;
+    color: #f1f1f1;
+    min-height: 150px;
+}
+
+/*---------------------------------Footer*/
+
+fa-facebook {
+    fill: #ffffff;
+}
+
 
