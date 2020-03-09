@@ -12,8 +12,12 @@ img {
     height: 400px;
     width: 600px;
 }
-/*---------------------------------Text-Aline*/
+/*---------------------------------Text-Align*/
 h2,h4,h5 {
+    text-align: center;
+}
+
+.h4 {
     text-align: center;
 }
 
@@ -37,7 +41,7 @@ ul {
 li a:hover {
   display: block;
   background-color: #ee8844;
-  color: white;
+  color: #ffffff;
 }
 
 body {
@@ -47,15 +51,35 @@ body {
 /*---------------------------------Footer*/
 
 footer {
+    text-align: center;
+    margin: 25px;
     background-color: #555555;
     color: #f1f1f1;
     min-height: 150px;
+
 }
 
-/*---------------------------------Footer*/
-
-fa-facebook {
-    fill: #ffffff;
+.social-links i:hover {
+    padding-bottom: 15px;
 }
 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #555555;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
 
