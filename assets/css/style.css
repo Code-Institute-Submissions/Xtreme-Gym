@@ -71,6 +71,19 @@ ul li a {
     color: #ffffff;
 }
 
+/*---------------------------------Footer*/
+
+footer {
+    position: relative;
+    margin-top: -150px; 
+    height: 150px;
+    padding-bottom:20px;
+    background-color: #555555;
+}
+
+section {
+    height: 90vh;
+}
 
 /*---------------------------------Submit Form*/
 
