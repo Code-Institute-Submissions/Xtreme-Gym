@@ -14,19 +14,38 @@
 <div>
         <h1 style="background-color:#f1bb4e">JOIN ONLINE</h1>
 </div>
-<form action="Checkbox" method="post">
-<div>
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname" placeholder="Enter your First Name Here"><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname" placeholder="Enter your Last Name Here"><br>
-  <label for="Number">Contact Number:</label>
-  <input type="text" id="Contact" name="Contact" placeholder="Enter your Contact Number Here"><br>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="Enter your Email Here"><br>
-  <input type="checkbox" name="remember" value="remember">
-  <input type="submit" value="Submit">
-</div>  
+<form>
+  <div class="col align-self-center">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+     <div class="col align-self-center">
+      <label for="inputEmail4"></label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="col align-self-center">
+       <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+       <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+            <option selected>Please choose your reason for joining</option>
+            <option value="1">To get into shape</option>
+            <option value="2">To Gain Muscle</option>
+            <option value="3">To lose Weight</option>
+            <option value="4">For Leisure</option>
+        </select>
+        <div class="col-auto my-1">
+        <div class="custom-control custom-checkbox mr-sm-2">
+            <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+            <label class="custom-control-label" for="customControlAutosizing">Please click here before you submit and our dedicated staff will be assigned to you</label>
+      </div>
+    </div>
+    <div class="col-auto my-1">
+      <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+     </div>
+  </div>
 </form>
     
        
@@ -40,30 +59,7 @@
 
 
 
-    <footer class="container-fluid" style="background-color:#f1bb4e">
-        <div>
-            <h4>keep up to date on Social Media</h4>
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <footer>
         <div>
                 <a href="index.html">Return to Main Menu</a>
         </div>
