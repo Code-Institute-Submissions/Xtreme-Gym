@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../images/xtremgym.jpg');
+    background-image: url('../images/gym.jpg');
     background-size: cover;
 }
 
@@ -77,14 +77,22 @@ ul li a {
     color: #ffffff;
 }
 
+/*---------------------------------Logo*/
+
+.headerlogo {
+    text-align: center;
+    background-color: #c8a2c8;
+}
+
+
 /*---------------------------------Footer*/
 
 footer {
     position: relative;
     margin-top: -150px; 
     height: 150px;
-    padding-bottom:20px;
-    background-color: #555555;
+    padding-bottom: 20px;
+    background-color: #c8a2c8;
 }
 
 section {
@@ -99,7 +107,7 @@ ul {
 }
 
 ul li a:hover {
-    background-color: #ffffff;
+    background-color: #c8a2c8;
     color: #000000;
 }
 
@@ -107,11 +115,4 @@ ul li a:hover {
 
 
 
-/*---------------------------------Img*/
 
-.cycle {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}

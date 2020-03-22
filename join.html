@@ -11,8 +11,8 @@
 </head>
 <body>
 <header>
-<div>
-        <h1 style="background-color:#f1bb4e">JOIN ONLINE</h1>
+<div class="headerlogo">
+    <img src="assets/images/logo.png" alt="logo">
 </div>
 <form>
   <div class="col align-self-center">
@@ -35,6 +35,11 @@
             <option value="3">To lose Weight</option>
             <option value="4">For Leisure</option>
         </select>
+
+        <div class="form-group">
+            <input class="form-control" type="text" placeholder="Please enter your Card Details below" readonly>
+            <input type="Carddetails" class="form-control" id="entercard" placeholder="XXXX-XXXX-XXXX-XXXX">
+        </div>
         <div class="col-auto my-1">
         <div class="custom-control custom-checkbox mr-sm-2">
             <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
@@ -59,12 +64,36 @@
 
 
 
-    <footer>
+<footer class="container-fluid">
+    <div class="row align-items-center">
+        <div class="col">
+            <h5 class="uppercase general-sub"><b>Keep upto date on Social Media</b></h5>
+            <ul class="list-inline social links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                    <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                    <li class="list-inline-item">
+                    <a target="_blank" href="#">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
         <div>
                 <a href="index.html">Return to Main Menu</a>
         </div>
-    
-    </footer>
         <div>
             <h6>Designed by Raffaqat Ali 2020</h6>
         </div>
