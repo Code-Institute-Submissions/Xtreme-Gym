@@ -14,8 +14,9 @@ body {
 
 /*---------------------------------Text*/
 
-header h1 {
+h1 {
     text-align: center;
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -45,12 +46,7 @@ ul li a {
 .title {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.title h1 {
-    color: #ffffff;
-    font-size: 75px;
+    transform: translate(-50%, -50%);
 }
 
 .button {
@@ -67,7 +63,7 @@ ul li a {
     transition: 0.7s ease-in-out;
 }
 
-.btn:hover {
+.btn {
     background-color: #ffffff;
     color: #000000;
 }
@@ -75,6 +71,10 @@ ul li a {
 .row {
     text-align: center;
     color: #ffffff;
+}
+
+.flex-row-reverse {
+    text-align: center;
 }
 
 /*---------------------------------Logo*/
@@ -112,6 +112,13 @@ ul li a:hover {
 }
 
 /*---------------------------------Submit Form*/
+
+
+/*---------------------------------Table*/
+
+table {
+    background-color: #ffffff;
+}
 
 
 
