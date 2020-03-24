@@ -20,11 +20,20 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    color: #ffffff;
+    border-style: solid;
+    background-color: #c8a2c8;
+}
+
+h6 {
+    color: #ffffff;
+    text-size-adjust: small;
+}
+
 label {
     background-color: #ffffff;
 }
-
-
 
 ul li {
     display: inline-block;
@@ -56,11 +65,11 @@ ul li a {
     transform: translate(-50%, -50%)
 }
 
-.btn {
+.btn:hover {
     border: 1px solid #ffffff;
     padding: 10px 25px;
-    color: #ffffff;
-    transition: 0.7s ease-in-out;
+    color: #000000;
+    transition: 0.3s ease;
 }
 
 .btn {
@@ -73,17 +82,17 @@ ul li a {
     color: #ffffff;
 }
 
-.flex-row-reverse {
+d-flex flex-row-reverse {
     text-align: center;
 }
 
 /*---------------------------------Logo*/
 
-.headerlogo {
+.headerlogo:hover {
     text-align: center;
     background-color: #c8a2c8;
+    transition: 0.8s ease-in-out;
 }
-
 
 /*---------------------------------Footer*/
 
@@ -118,6 +127,22 @@ ul li a:hover {
 
 table {
     background-color: #ffffff;
+}
+
+/*---------------------------------Address*/
+
+address {
+    text-align: center;
+    background-color: #c8a2c8;
+    border: #ffffff;
+    margin: 200px;
+    padding: 25px;
+}
+
+/*---------------------------------Font-Awesome*/
+
+i {
+    color: #ffffff;
 }
 
 
