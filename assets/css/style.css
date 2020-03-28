@@ -110,7 +110,6 @@ footer {
     margin-top: -150px; 
     height: 150px;
     padding-bottom: 20px;
-    background-color: #c8a2c8;
 }
 
 section {
@@ -129,7 +128,8 @@ ul li a:hover {
     color: #000000;
 }
 
-/*---------------------------------Submit Form*/
+/*---------------------------------feedback.html*/
+
 
 
 /*---------------------------------Table*/
@@ -150,22 +150,31 @@ address {
 
 /*---------------------------------Classes*/
 
-.col-md-12 {
-    background: rgba(236, 84, 160, 0.5);
+.col {
+    background: #c8a2c8;
 }
 
-.heading {
+.caption {
     background: rgba(236, 84, 160, 0.5);
+    font-weight: bold;
 }
 
+/*---------------------------------Feedback*/
 
 
 
 
 
-@media only screen and (max-width: 600px) {
-  /* all your css for a screen size of 600px or more goes in here like this: */
-#myId {
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
     background-color: black;
     }
 .myClassName {
