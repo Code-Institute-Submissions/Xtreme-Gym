@@ -225,8 +225,7 @@ address {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
     background: #ffffff;
     padding: 10%;
-    margin: 5% auto;
-    margin-top: 10% auto;
+    top: 50px;
     text-align: center;
 }
 
@@ -257,10 +256,6 @@ address {
     }
 
     .signup-btn {
-        background-color: #ffffff;
-    }
-
-        .signup-btn:hover {
         background-color: #c8a2c8;
     }
 ***************************-to addimage
