@@ -227,9 +227,8 @@ address {
     width: 550px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
     background: #ffffff;
-    padding-top: 0px;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    padding: 10px;
+    margin: 5% auto 0;
     text-align: center;
 }
 
