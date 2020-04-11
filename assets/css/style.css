@@ -14,12 +14,6 @@ body {
 
 /*---------------------------------Text*/
 
-.content {
-    padding-top: 15px;
-}
-
-
-
 .bg-dark {
     background-color: #c8a2c8 !important;
 }
@@ -37,24 +31,6 @@ body {
 
 .navbar-dark .navbar-nav .nav-item {
     margin: 0 15px;
-}
-
-h1 {
-    text-align: center;
-    color: #ffffff;
-    font-weight: bold;
-}
-
-h3 {
-    color: #ffffff;
-    border-style: solid;
-    text-align: center;
-    background-color: #c8a2c8;
-}
-
-h6 {
-    color: #ffffff;
-    text-size-adjust: small;
 }
 
 label {
