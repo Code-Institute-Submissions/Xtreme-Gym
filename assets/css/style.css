@@ -33,60 +33,6 @@ body {
     margin: 0 15px;
 }
 
-label {
-    background-color: #ffffff;
-}
-
-ul li {
-    display: inline-block;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 5px 20px;
-    border: 2px solid #ffffff;
-}
-
-
-.main {
-    max-width: 1400px;
-    margin: auto;
-}
-
-.title {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
-
-.btn:hover {
-    border: 1px solid #ffffff;
-    padding: 10px 25px;
-    color: #000000;
-    transition: 0.3s ease;
-}
-
-.btn {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.row {
-    text-align: center;
-    color: #ffffff;
-}
-
-d-flex flex-row-reverse {
-    text-align: center;
-}
 
 /*---------------------------------Logo*/
 
