@@ -9,13 +9,12 @@
 
 body {
     background-image: url('../images/gym.jpg');
-    background-size: cover;
 }
 
 /*---------------------------------Text*/
 
 .bg-dark {
-    background-color: #c8a2c8 !important;
+    background-color: #c8a2c8;
 }
 .navbar-brand {
     font-weight: bold;
@@ -33,13 +32,16 @@ body {
     margin: 0 15px;
 }
 
+.container col-12 {
+    color: #ffffff;
+    background-color: rgba(20, 20, 20, 0.301);
+}
+
 
 /*---------------------------------Logo*/
 
-.headerlogo:hover {
-    text-align: center;
-    background-color: #c8a2c8;
-    transition: 0.5s ease-in-out;
+.headerlogo {
+    background-color: rgba(20, 20, 20, 0.767);
 }
 
 /*---------------------------------Footer*/
