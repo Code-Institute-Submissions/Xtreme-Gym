@@ -63,6 +63,11 @@ section {
 .container-fluid {
     background-color: #c8a2c8;
 }
+
+.row align-items-center {
+    background-color: #c8a2c8;
+    color: #c8a2c8;
+}
 /*---------------------------------Social Links Buttons*/
 
 ul li a {
@@ -74,6 +79,7 @@ ul li a:hover {
     background-color: #c8a2c8;
     color: #000000;
 }
+
 
 /*---------------------------------feedback.html*/
 
