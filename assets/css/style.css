@@ -39,6 +39,16 @@ body {
 
 /*---------------------------------Logo*/
 
+.headerlogo {
+background: rgba(24, 23, 23, 0.76);
+}
+
+/*---------------------------------Text*/
+
+.col-12 {
+    background: rgba(24, 23, 23, 0.76);
+    color: #ffffff;
+}
 
 
 /*---------------------------------Buttons*/
@@ -68,7 +78,7 @@ body {
 /*---------------------------------Footer*/
 
 section {
-    height: 60vh;
+    height: 85vh;
 }
 
 footer {
@@ -283,9 +293,11 @@ address {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
 
-#sign-up-form {
+.sign-up-form {
     width: 100%;
+    margin-top: 0;
 }
+
 
 
 
