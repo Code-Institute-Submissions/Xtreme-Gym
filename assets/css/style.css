@@ -53,18 +53,19 @@ background: rgba(24, 23, 23, 0.76);
 
 /*---------------------------------Buttons*/
 
-.swagbutton {
+.button {
     margin-top: auto;
     font-weight: 100;
     font-size: 22px;
     text-align: center;
     color: #ffffff;
     border: solid 2px #c8a2c8;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 10px 80px;
+    display: block;
 }
 
-.swagbutton:hover {
+.button:hover {
     background-color: #c8a2c8;
     color: #ffffff;
 }
@@ -78,7 +79,7 @@ background: rgba(24, 23, 23, 0.76);
 /*---------------------------------Footer*/
 
 section {
-    height: 85vh;
+    height: 95vh;
 }
 
 footer {
@@ -87,7 +88,6 @@ footer {
     background-color: #c8a2c8;
     margin: auto;
     clear: both;
-    border-radius: 5px;
     color: #ffffff;
     text-align: center;
     padding: 15px;
@@ -237,7 +237,7 @@ address {
 /*---------------------------------Join*/
 
 .sign-up-form {
-    width: 650px;
+    width: 550px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
     background: #ffffff;
     padding: 10px;
@@ -247,7 +247,7 @@ address {
 
 .sign-up-form h1 {
     color: #c8a2c8;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .input-box {
@@ -298,6 +298,12 @@ address {
     margin-top: 0;
 }
 
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+.sign-up-form {
+    width: 100% !important;
+    height: 100% !important;
+    }
+}
 
 
 
