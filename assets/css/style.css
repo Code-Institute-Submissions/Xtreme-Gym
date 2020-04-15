@@ -53,16 +53,23 @@ background: rgba(24, 23, 23, 0.76);
 
 /*---------------------------------Buttons*/
 
+.wrapper {
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
 .button {
-    margin-top: auto;
+    margin-top: 0;
+    margin: 0;
+    position: absolute;
     font-weight: 100;
     font-size: 22px;
-    text-align: center;
     color: #ffffff;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     border: solid 2px #c8a2c8;
     border-radius: 30px;
-    padding: 10px 80px;
-    display: block;
 }
 
 .button:hover {
