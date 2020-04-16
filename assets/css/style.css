@@ -59,7 +59,7 @@ background: rgba(24, 23, 23, 0.76);
     position: relative;
 }
 
-.button {
+.wrapper {
     margin-top: 0;
     margin: 0;
     position: absolute;
@@ -72,11 +72,14 @@ background: rgba(24, 23, 23, 0.76);
     border-radius: 30px;
 }
 
-.button:hover {
+.wrapper:hover {
     background-color: #c8a2c8;
     color: #ffffff;
 }
+
+
     
+
 
 
 
@@ -86,7 +89,7 @@ background: rgba(24, 23, 23, 0.76);
 /*---------------------------------Footer*/
 
 section {
-    height: 95vh;
+    min-height: 95vh;
 }
 
 footer {
