@@ -40,7 +40,8 @@ body {
 /*---------------------------------Logo*/
 
 .headerlogo {
-background: rgba(24, 23, 23, 0.76);
+    background: #c8a2c8;
+    text-align: center;
 }
 
 /*---------------------------------Text*/
@@ -53,29 +54,7 @@ background: rgba(24, 23, 23, 0.76);
 
 /*---------------------------------Buttons*/
 
-.wrapper {
-    height: 200px;
-    text-align: center;
-    position: relative;
-}
 
-.wrapper {
-    margin-top: 0;
-    margin: 0;
-    position: absolute;
-    font-weight: 100;
-    font-size: 22px;
-    color: #ffffff;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    border: solid 2px #c8a2c8;
-    border-radius: 30px;
-}
-
-.wrapper:hover {
-    background-color: #c8a2c8;
-    color: #ffffff;
-}
 
 
     
@@ -176,33 +155,41 @@ address {
 /*---------------------------------Classes*/
 
 .container {
-    background-color: rgba(236, 84, 160, 0.5);
+    background: rgba(24, 23, 23, 0.76);
 }
 
 .caption {
-    background-color: rgba(236, 84, 160, 0.5);
+    background: rgba(24, 23, 23, 0.76);
     font-weight: bold;
 }
 
 .gap100 {
-    padding: px 0px;
+    padding: 0px;
+    color: #ffffff;
+    text-align: center; 
 }
 
 .thumbnail {
-    width: 75%;
+    width: 85%;
     text-align: center;
+    color: #ffffff;
+}
+
+.col-md {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    margin-left: 75px;
 }
 
 
-
-.col {
-  float: auto;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 30px 0;
-}
 
 /*---------------------------------Feedback*/
+
+
+.clear_fix {
+    clear: both;
+}
 
 .testimonial {
     width: 720px;
@@ -221,23 +208,23 @@ address {
 
 .testimonial .item .img {
     padding: 20px;
+    border-radius: 50%;
 }
 
-.testimonial .item .img img{
+.testimonial .item .img img {
     width: 100px;
-    border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 
-.testimonial .item .name{
+.testimonial .item .name {
     margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-.testimonial .item .content{
+.testimonial .item .content {
     background: #ffffff;
     padding: 20px;
     border-bottom-left-radius: 25px;
@@ -247,16 +234,19 @@ address {
     text-align: center;
 }
 
-.testimonial .item .content h1{
+.testimonial .item .content h1 {
     margin-bottom: 10px;
-    color: #6ddfc0;
+    color: #ffffff;
 }
 
-.testimonial .item .content p{
+.testimonial .item .content p {
     line-height: 20px;
     margin-bottom: 15px;
-
+    color: #ffffff;
 }
+
+
+
 
 /*---------------------------------Join*/
 
@@ -316,6 +306,10 @@ address {
 .sign-up-form {
     width: 100%;
     margin-top: 0;
+}
+
+.col-md {
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) and (orientation: landscape) {
