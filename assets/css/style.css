@@ -15,7 +15,7 @@ body {
 /*---------------------------------Nav-Bar*/
 
 .navbar {
-    background-color: #c8a2c8 !important;
+    background-color: rgba(24, 23, 23, 0.76) !important;
 }
 
 .navbar .navbar-text {
@@ -52,14 +52,16 @@ body {
     text-align: center;
 }
 
+.fa-running {
+    color: #ffffff;
+}
 
+.col-sm {
+    color: #ffffff;
+}
 /*---------------------------------Buttons*/
 
 
-.col-12 {
-    text-align: center;
-    color: #c8a2c8;
-}
 
 
 
@@ -287,8 +289,11 @@ address {
         background-color: #c8a2c8;
     }
 
+/*---------------------------------Images*/
 
-
+.entrance {
+    height: 100%;
+}
 
 
 
