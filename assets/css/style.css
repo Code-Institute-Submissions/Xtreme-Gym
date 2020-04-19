@@ -141,21 +141,8 @@ footer {
 
 /*---------------------------------Table*/
 
-table {
-    background-color: #ffffff;
-}
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 65%;
-  border: 1px solid #ddd;
-}
 
-th, td {
-  text-align: center;
-  padding: 8px;
-}
 
 /*---------------------------------Address*/
 
@@ -200,6 +187,10 @@ address {
 
 
 /*---------------------------------Feedback*/
+
+.media {
+    text-align: center;
+}
 
 
 .clear_fix {
@@ -263,7 +254,7 @@ address {
 /*---------------------------------Join*/
 
 .sign-up-form {
-    width: 322px;
+    width: 550px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
     background: #ffffff;
     padding: 10px;
@@ -311,13 +302,18 @@ address {
 
 
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+@media screen and (max-width: 960px) {
 
-.testimonial {
-    width: 720px;
-    height: auto;
-    margin: 120px auto;
+.col {
+    flex: 100%;
+    max-width: 80%;
+}
+}
+@media screen and (max-width: 600px) {
+
+.col {
+    flex: 100%;
+    max-width: 100%;
 }
 
 
