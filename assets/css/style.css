@@ -145,6 +145,18 @@ table {
     background-color: #ffffff;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 65%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
 /*---------------------------------Address*/
 
 address {
