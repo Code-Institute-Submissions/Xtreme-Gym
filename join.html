@@ -32,6 +32,7 @@
 <header>
 <div class="headerlogo">
 <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+<h1><b>Join Here</b></h1>
 </div>
 </header>
 <body>
@@ -42,16 +43,24 @@
         <form>
         <input type="text" class="form-control" placeholder="First name">
         <input type="text" class="form-control" placeholder="Last name">
+        <label for="phone">Contact Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+        <label for="birthday">DOB:</label>
+        <input type="date" id="birthday" name="birthday">
         <input type="email" class="form-control" placeholder="Email">
         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-            <option selected>Please choose your reason for joining</option>
-            <option value="1">To get into shape</option>
-            <option value="2">To Gain Muscle</option>
-            <option value="3">To lose Weight</option>
-            <option value="4">For Leisure</option>
+            <option selected>How did you hear about us</option>
+            <option value="1">Friend</option>
+            <option value="2">Television</option>
+            <option value="3">Online</option>
+            <option value="4">Other</option>
         </select>
             <input class="form-control" type="text" placeholder="Please enter your Card Details below">
             <input type="Carddetails" class="form-control" id="entercard" placeholder="XXXX-XXXX-XXXX-XXXX" >
+                <label for="expyear">Card Expiry Date</label>
+                <input type="text" id="expyear" name="expyear" placeholder="MM/YYYY">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV">
             <p><span><input type="checkbox"></span> For £9.99 every month</p>
             <p><span><input type="checkbox"></span> For £99.99 anually</p>
             <p><span><input type="checkbox"></span> Agree with the Terms and Conditions</p>
@@ -72,7 +81,7 @@
       <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
       <a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-<p>	&copy; Created by Raffaqat Ali</p>
+<p>	&copy; Created by Raffaqat Ali 2020</p>
 </div>
 </footer>
 </body>

@@ -60,6 +60,11 @@ body {
     color: #ffffff;
 }
 
+.header {
+    text-align: center;
+    color: #000000;
+    background: #c8a2c8;
+}
 
 /*---------------------------------Footer*/
 
@@ -134,20 +139,14 @@ footer {
 /*---------------------------------Table*/
 
 .table {
-    background-color: #ffffff;
+    background-color: #c8a2c8;
 }
 
 
 
 /*---------------------------------Address*/
 
-address {
-    text-align: center;
-    background: rgba(236, 84, 160, 0.5);
-    color: #ffffff;
-    margin: 100px;
-    padding: 15px;
-}
+
 
 /*---------------------------------Classes*/
 
@@ -175,7 +174,8 @@ address {
 .col-md {
     text-align: center;
     display: block;
-    padding: 5px;
+    padding: 0px;
+    padding-bottom: 10px;
     margin-left: 75px;
 }
 
