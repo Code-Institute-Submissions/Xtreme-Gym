@@ -1,54 +1,46 @@
-X-TREM GYM
-The purpose of my project is to design a website for a gym, to attract new members. My design is to keep it simple but stylish. I want to design it so that it attracts new members with easy and a simple layout for them to understand and find the classes tailored for them.
-Purpose of website
-•	To make a new gym website
-•	Design it for people at all ages
-•	Easy to use
-•	Colourful design and layout
-•	To make all classes and equipment available for all people
+# X-TREM GYM
+The purpose of my project is to design a website for a gym, to attract new members. My design is to keep it simple but stylish. I want to design it so that it attracts new members with easy and a simple layout for them to understand and find the classes tailored for them. Purpose of website 
+- To make a new gym website 
+- Design it for people at all ages 
+- Easy to use 
+- Colourful design and layout 
+- To make all classes and equipment available for all people
 
-Contents
-•	UX
-•	New User
-•	Purpose
-•	Features
-•	Skeleton
-•	Layout
-•	Technologies Used
-•	Testing
-UX
-I wanted to design three pages, first being the home page and then classes and join page. But after careful consideration, I thought three pages was too short. So I decided to add a two more pages to give the website extra features and navigation etc.
-But I wanted to colour code with the main pages so that I make the pages stand out.
-•	Easy to navigate
-•	To help the customer understand what they are signing up for
-•	To allow the customers to interact
-•	To be user friendly and engage
-•	To make it a social experience
-In my design I used a bootstrap type to layout the designs and it to set the website to a gym feature website.
-New User
-As a new member/customer;
-•	I wanted an easy to navigate web site 
-•	Easy to understand
-•	How to join
-•	To see what is available
-•	To see the trainers
-•	To see address/ how to contact etc
-As an owner/manager of the gym;
-•	I wanted a new member wanting to join, to find it easy to become a member
-•	I wanted this to be designed for all ages
-•	I wanted to keep it simple and not to complex
-•	I wanted to keep it up to date, with features like social media etc
+## Contents
+- [ ] UX
+- [ ] New User
+- [ ] Features
+- [ ] Skeleton
+- [ ] Layout
+- [ ] Technologies Used
+- [ ] Testing
+- [ ] Deployment
+- [ ] Credits/Media
+- [ ] Acknowledment
 
+ ### UX
+ I wanted to design three pages, first being the home page and then classes and join page. But after careful consideration, I thought three pages was too short. So I decided to add a two more pages to give the website extra features and navigation etc. But I wanted to colour code with the main pages so that I make the pages stand out. 
+ - Easy to navigate 
+ - To help the customer understand what they are signing up for • To allow the customers to interact 
+ - To be user friendly and engage 
+ - To add social media links, to keep up to date on the latest news In my design I used a bootstrap type to layout the designs and it to set the website to a gym feature website. 
+ #### New User 
+ As a new member/customer; 
+ - I wanted an easy to navigate web site 
+ - Easy to understand 
+ - How to join 
+ - To see what is available 
+ - To see the trainers 
+ - To see address/ how to contact etc As an owner/manager of the gym; 
+ - I wanted a new member wanting to join, to find it easy to become a member 
+ - I wanted to keep it simple and not to complex 
+ - I wanted to keep it up to date, with features like social media etc
 
+### Features
 
-Features
+I wanted to create five main pages; In my main homepage, I wanted it to have the fitness/gym designs with the colour theme being purple. As the main page has a purple colour, I wanted to reflect this with my header and footer layout. I wanted to create a website with a navigation bar as the sites main navigation to the different pages. I think having the navigation bar gives the website a more modern look. With each page I created links so that, it is easy to navigate from page to page. If a customer wanted to go back to the main page, they would need to click on the top left title of my navigation bar.
 
-I wanted to create five main pages;
-In my main homepage, I wanted it to have the fitness/gym designs with the colour theme being purple. As the main page has a purple colour, I wanted to reflect this with my header and footer layout.
-I wanted to create a website with a navigation bar as the sites main navigation to the different pages.
-I think having the navigation bar gives the website a more modern look.
-
-Skeleton
+### Skeleton
 The website has five pages;
 •   Index Page	![Index Page](assets/images/index1.png)
 •	How to join ![To Join Page](assets/images/Join1.png)
